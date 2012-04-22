@@ -41,7 +41,23 @@ def count(word, letter):
 print count('hello', 'l')
 
 # Exercise 8.6
-#def count(word, letter):
- #   find(
+##def count(word, letter):
+##    count = 0
+    
+# Exercise 8.9
+def is_palindrome(word):
+    """ This function checks to see if 'word' is a palindrome. """
+    if word == word[::-1]:
+        return True
+    else:
+        return False
+
+print is_palindrome('asdfdsa')
+
+# Exercise 8.10
+## Done and Done
+
+
+
     
     
